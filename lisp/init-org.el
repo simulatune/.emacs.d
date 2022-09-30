@@ -35,12 +35,16 @@
 
 
 
-;;hugo博客相关
+;;hugo博客相关(org->markdown)
 (with-eval-after-load 'ox
   (require 'ox-hugo))
   
 (use-package ox-hugo
   :pin melpa  ;`package-archives' should already have ("melpa" . "https://melpa.org/packages/")
   :after ox)
+
+(use-package yasnippet
+  :config
+  (yas-global-mode 1))
 
 (provide 'init-org)
