@@ -1,7 +1,8 @@
-/auto-save-list/
-/elpa/
-/recentf
-/transient/
-.DS_Store
-history
+auto-save-list
 awesome-tab
+elpa
+history
+recentf
+snippets
+transient
+.DS_Store
